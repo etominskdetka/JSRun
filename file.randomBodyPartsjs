@@ -1,0 +1,13 @@
+var randomBodyParts = ['нос', 'череп', 'глаз'];
+var randomAdjectives = ['вонючая', 'унылая', 'дурацкая'];
+var randomWords = ['муха', 'выдра', 'дубина', 'мартышка', 'крыса'];
+//Выбор части тела
+var changeBodyParts = randomBodyParts[Math.floor(Math.random() * 3)];
+//Выбор прилагательного
+var changeAdjectives [Math.floor(Math.random() * 3)];
+// Выбор дополнительного слова
+var changeWords = [(Math.floor(Math.random() * 5)];
+var randomPhrase = ('У тебя ' + changeBodyParts + ' как ' + changeAdjectives + changeWords);
+alert(randomPhrase);
+
+	

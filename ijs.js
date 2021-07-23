@@ -1,0 +1,13 @@
+console.log(typeof(undefined));
+console.log(typeof('too'));
+console.log(typeof(0));
+console.log(typeof(10n));
+console.log(typeof(true));
+console.log(typeof(28.99));
+console.log(typeof(false));
+console.log(typeof(Math));
+console.log(typeof(alert));
+console.log(typeof(null));
+console.log(typeof(Symbol("id")));
+let age = 33;
+console.log(typeof(age));
