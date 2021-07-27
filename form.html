@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Форма для входа</title>
+    <link rel="stylesheet" href="formStyle.css" />
+  </head>
+  <body>
+    <form action="handler.php">
+      <h2>Добро пожаловать!</h2>
+      <p><input
+        type="text"
+        placeholder="Логин"
+        name="login"
+        class="form-control"
+      /></p>
+      <p><input
+        type="password"
+        placeholder="Пароль"
+        name="parol"
+        class="form-control"
+      /></p>
+      <p class = "remember"><input type="checkbox" checked name="remember"/>Запомнить меня</p>
+      <button>Войти</button>
+    </form>
+  </body>
+</html>
