@@ -1,0 +1,17 @@
+button {
+  background-color: #ce242b;
+  color: #fff;
+  border: none;
+  padding: 0.7rem 2rem;
+  box-shadow: 5px 5px 0 #000;
+  position: relative;
+  left: 0;
+  top: 0;
+  transition: 1s;
+}
+
+button:hover {
+  left: 5px;
+  top: 5px;
+  box-shadow: 0 0 0 #000;
+}
