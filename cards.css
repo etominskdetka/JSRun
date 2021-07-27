@@ -1,0 +1,18 @@
+.cards {
+  position: absolute;
+  left: 50%;
+  top: 50px;
+  transform-origin: 50% 100%;
+}
+
+.card1 {
+  transform: rotateZ(-15deg);
+}
+
+.card3 {
+  transform: rotateZ(+15deg);
+}
+
+.cards:hover {
+  z-index: 2;
+}
