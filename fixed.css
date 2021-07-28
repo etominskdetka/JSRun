@@ -1,0 +1,18 @@
+body {
+  min-height: 1000px;
+}
+
+.menu {
+  background: #edf6ff;
+  width: 140px;
+  padding: 10px;
+  margin: 0;
+  list-style: none;
+  position: fixed;
+  right: 10px;
+  top: 100px;
+}
+
+.menu a {
+  color: #1b4268;
+}
