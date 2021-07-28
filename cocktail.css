@@ -1,0 +1,39 @@
+body {
+    background-color: #f7f6f2;
+}
+
+.cocktail {
+    display:inline-block;
+    padding:12px;
+    margin:0;
+    position: relative;
+    overflow:hidden;
+}
+
+.coctail::after, .cocktail::before {
+    content:"";
+    position:absolute;
+    z-index:2;
+    width:70px;
+    height:40px;
+    left: -40px;
+    bottom: -40px;
+    transform: rotate(45deg);
+    box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+    outline:#c2b59d dashed 1px;
+    outline-offset:-3px;
+    background-color: #f7f6f2;
+}
+
+.cocktail::after {
+    left:auto;
+    right:-40px;
+    top:-40px;
+}
+
+cocktail img {
+    display: block;
+    padding:4px;
+    background-color: #dad6cf;
+    border: 2px solid #c2b59d;
+}
