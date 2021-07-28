@@ -1,0 +1,22 @@
+body {
+  background: url(images/travolta.jpg);
+  background-size: cover;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.er404 {
+  position: relative;
+  text-align: center;
+  margin-top: 200px;
+  color: #fff;
+  font-size: 8em;
+  z-index: 2;
+}
