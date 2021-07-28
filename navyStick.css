@@ -1,0 +1,21 @@
+body {
+  min-height: 1000px;
+}
+
+ul {
+  background-color: #b41a83;
+  padding: 10px;
+  position: sticky;
+  top: 0;
+}
+
+li {
+  list-style: none;
+  display: inline;
+  margin-right: 15px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
