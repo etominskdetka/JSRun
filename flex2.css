@@ -1,0 +1,13 @@
+.flex-conteiner {
+    background-color: red;
+    display:flex;
+    flex-flow:row wrap;
+    justify-content:space-between;
+}
+
+.child {
+    background-color: blue;
+    width:150px;
+    height:150px;
+    text-align:center;
+}
